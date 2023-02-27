@@ -6,19 +6,24 @@
   box-sizing: border-box;
 }
 body {
-  background: #116396;
+  background-image: url(image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 .container-fluid {
-  width: 400px;
+  width: 500px;
   margin: 60px auto;
   padding: 10px;
+  
 }
 .inputs {
   padding: 2rem 0 2rem 0;
   text-align: center;
   justify-content: center;
   background: white;
-  width: 400px;
+  width: 500px;
+  border-radius: 10px;
 }
 .inputs input[type="text"] {
   height: 4rem;
@@ -30,7 +35,7 @@ body {
   border: none;
   background-color: transparent;
   border: 2px solid #c2c2c2;
-  border-radius: 2px;
+  border-radius: 5px;
   margin-right: 4px;
 }
 .inputs input[type="submit"] {
@@ -42,24 +47,24 @@ body {
   font-size: 1rem;
   margin-top: 20px;
   border: none;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 .display {
   text-align: center;
-  width: 400px;
-  
+  width: 500px;
 }
 .wrapper {
   margin: 0 9rem;
   background-color: white;
   height: auto;
   margin: 50px auto;
-  border-radius: 2px;
+  border-radius: 5px;
   padding-bottom: 30px;
 }
 .current-day {
-  background-color: rgb(89, 87, 92);
+  background-color: rgb(90, 14, 190);
   margin-bottom: 30px;
+  border-radius: 5px;
 }
 .current-day span {
   font-size: 24px;
@@ -73,7 +78,7 @@ body {
   font-family: sans-serif;
 }
 
-.wrapper h2 {
+.wrapper h4 {
   padding: 5px 0;
   text-align: center;
   background: #0548b5;
@@ -87,8 +92,8 @@ body {
   color: #04214c;
   font-size: 23px;
 }
-.wrapper h2 span {
-  font-size: 26px;
+.wrapper h4 span {
+  font-size: 28px;
   color: #9beefb;
 }
 .wrapper p span {

@@ -14,22 +14,26 @@
 <body>
     <div class="container-fluid">
         <section class="main">
-            <section class="inputs">
-                <input type="text" placeholder="Enter any city..." id="cityinput">
-                <input type="submit" value="Submit" id="add">
-            </section>
+            
             <section class="display">
                 <div class="wrapper">
                     <div class="current-day">
                         <h2 class="date-dayname" id="weekday"></h2>
                         <span class="date-day" id="today"></span>
                     </div>
-                    <h2 id="cityoutput"></h2>
+                    <section class="inputs">
+                        <input type="text" placeholder="Įveskite miesto pavadinimą..." id="cityinput" required><br>
+                        <button class="btn btn-secondary mt-3" type="submit" value="" id="add">Search</button>
+                    </section>
+                    <h4 id="cityoutput"></h4>
                     <p id="description"></p>
                     <p id="temp"></p>
                     <p id="wind"></p>
+                    <p id="humidity"></p>
+                    
                 </div>
             </section>
+            
         </section>
     </div>
 
